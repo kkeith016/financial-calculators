@@ -13,7 +13,13 @@ public class mortgageCalculator {
         //Y = number of years.
 
 
+// Key Variables
+        //Loan amount
 
+        System.out.print("Enter loan amountL ");
+        double Principal = scan.nextDouble();
+
+        
 
     }
 }
