@@ -18,8 +18,13 @@ public class futureValue {
         int years = scan.nextInt();
 
 // calculating interest to a decimal
-        double rate = interest/100.0;
+        double rate = interest / 100.0;
         double dailyInterest = rate / 365;
+
+        //total number of days
+        int days = years * 365;
+
+
 
 
 
