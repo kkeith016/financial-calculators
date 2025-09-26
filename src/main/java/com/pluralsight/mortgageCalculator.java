@@ -1,5 +1,7 @@
 package com.pluralsight;
 
+import java.util.Scanner;
+
 public class mortgageCalculator {
     public static void main(String[] args) {
 
@@ -11,15 +13,19 @@ public class mortgageCalculator {
         //r = Monthly interest rate = annual interest rate ÷ 12
         //N = Total number of payments = 𝑌 * 12 for monthly payment
         //Y = number of years.
-
+        Scanner scan = new Scanner(System.in);
 
 // Key Variables
         //Loan amount
 
-        System.out.print("Enter loan amountL ");
+        System.out.print("Enter loan amount");
         double Principal = scan.nextDouble();
 
         //Annual interest rate
+        System.out.print("Enter interest rate");
+        double InterestRate = scan.nextDouble();
+
+        //Monthly interest calculation
 
 
 
