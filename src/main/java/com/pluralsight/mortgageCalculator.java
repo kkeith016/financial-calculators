@@ -35,6 +35,11 @@ public class mortgageCalculator {
         //Converting years into the total monthly payments
         int totalPayment = years * 12;
 
+        //Calculating (1 + r)^N
+        double rate = Math.pow(1 + monthlyRate, totalPayment);
+
+
+
 
 
     }
