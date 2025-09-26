@@ -26,6 +26,10 @@ public class mortgageCalculator {
         double InterestRate = scan.nextDouble();
 
         //Monthly interest calculation
+        double monthlyRate = InterestRate/( 12 * 100 );
+
+        //Converting years into the total monthly payments
+        int totalPayment = years * 12
 
 
 
