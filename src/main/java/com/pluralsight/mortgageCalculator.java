@@ -19,7 +19,9 @@ public class mortgageCalculator {
         System.out.print("Enter loan amountL ");
         double Principal = scan.nextDouble();
 
-        
+        //Annual interest rate
+
+
 
     }
 }
