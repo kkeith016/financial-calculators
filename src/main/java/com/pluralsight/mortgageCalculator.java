@@ -19,7 +19,7 @@ public class mortgageCalculator {
         //Loan amount
 
         System.out.print("Enter loan amount");
-        double Principal = scan.nextDouble();
+        double principal = scan.nextDouble();
 
         //Annual interest rate
         System.out.print("Enter interest rate");
@@ -37,6 +37,14 @@ public class mortgageCalculator {
 
         //Calculating (1 + r)^N
         double rate = Math.pow(1 + monthlyRate, totalPayment);
+
+        // Applying Mortgage formula
+        double monthlyPayment = (principal * monthlyRate * rate)/(rate -1);
+
+        // Display the results
+        System.out.printf("Monthly Payment: $%.2f%n", monthlyPayment);
+
+
 
 
 
