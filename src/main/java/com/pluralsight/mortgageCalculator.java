@@ -44,6 +44,13 @@ public class mortgageCalculator {
         // Display the results
         System.out.printf("Monthly Payment: $%.2f%n", monthlyPayment);
 
+        //Total interest and total paid over the course of the loan.
+        double totalPaid = monthlyPayment * totalPayment;
+        double totalInterest = totalPaid - principal;
+
+        System.out.printf("Total Paid Over Loan: $%.2f%n", totalPaid);
+        System.out.printf("Total Interest Paid: $%.2f%n", totalInterest);
+
 
 
 
